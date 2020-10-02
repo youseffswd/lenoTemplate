@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
                 <li><a href="#home" class="active">home</a></li>
                 <li><a href="#feature">features</a></li>
                 <li><a href="#preview">preview</a></li>
-                <li><a href="#detalis">detalis <i class="fas fa-sort-down"></i></li>
+                <li><a href="#detalis">detalis </li>
                 <li><a href="#contact">contact</a></li>
             </ul>
         </div>
@@ -55,7 +56,7 @@
         <section class="content" id="home">
 
             <div class="words">
-                <h2>MOBILE APP <br>
+                <h2>MOBILE APP 
                 FOR <div id="div"><span class="span span_active">DESIGNERS</span>
                         <span class="span">developers</span>
                         <span class="span">marketing</span></div>
@@ -77,49 +78,46 @@
     <!-- start first slider -->
     <section class="slider">
         <div class="slider_container">
-            <div class="slider_content">
-                <div class="slider_test">
-                    <div class="slider_items">
+            <div class="slider_content swiper-container">
+                <div class="slider_test swiper-wrapper">
+                    <div class="slider_items swiper-slide">
                         <img src="img/testimonial-1.jpg" alt="">
                         <p>I just finished my trial period and was  so amazed with the support and results  that
                             I purchased Leno.</p>
                         <p>Jude Thorn - Designer</p>
                     </div>
-                    <div class="slider_items">
+                    <div class="slider_items swiper-slide">
                         <img src="img/testimonial-2.jpg" alt="">
                         <p>I just finished my trial period and was  so amazed with the support and results  that
                             I purchased Leno.</p>
                         <p>Jude Thorn - Designer</p>
                     </div>
-                    <div class="slider_items">
+                    <div class="slider_items swiper-slide">
                         <img src="img/testimonial-3.jpg" alt="">
                         <p>I just finished my trial period and was  so amazed with the support and results  that
                             I purchased Leno.</p>
                         <p>Jude Thorn - Designer</p>
                     </div>
-                    <div class="slider_items">
+                    <div class="slider_items swiper-slide">
                         <img src="img/testimonial-4.jpg" alt="">
                         <p>I just finished my trial period and was  so amazed with the support and results  that
                             I purchased Leno.</p>
                         <p>Jude Thorn - Designer</p>
                     </div>
-                    <div class="slider_items">
+                    <div class="slider_items swiper-slide">
                         <img src="img/testimonial-5.jpg" alt="">
                         <p>I just finished my trial period and was  so amazed with the support and results  that
                             I purchased Leno.</p>
                         <p>Jude Thorn - Designer</p>
                     </div>
-                    <div class="slider_items">
+                    <div class="slider_items swiper-slide">
                         <img src="img/testimonial-6.jpg" alt="">
                         <p>I just finished my trial period and was  so amazed with the support and results  that
                             I purchased Leno.</p>
                         <p>Jude Thorn - Designer</p>
                     </div>
                 </div>
-            </div>
-            <div class="direction">
-                <span class="prev"><</span>
-                <span class="next">></span>
+                <div class="swiper-pagination" style="transform: translateY(10px);"></div>
             </div>
         </div>
     </section>
@@ -459,42 +457,42 @@
     </section>
     <!-- sart phones slider -->
     <section class="phones_slider">
-        <div class="phones_slider_container">
-            <div class="phones_slider_items">
-                <div class="pones_slider">
+        <div class=" swiper-container">
+            <div class="certainClass swiper-wrapper" style="text-align: center">
+                <div class=" swiper-slide">
                     <img src="img/screenshot-1.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class=" swiper-slide">
                     <img src="img/screenshot-2.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class=" swiper-slide">
                     <img src="img/screenshot-3.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class="swiper-slide">
                     <img src="img/screenshot-4.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class=" swiper-slide">
                     <img src="img/screenshot-5.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class=" swiper-slide">
                     <img src="img/screenshot-6.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class=" swiper-slide">
                     <img src="img/screenshot-7.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class="swiper-slide">
                     <img src="img/screenshot-8.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class="swiper-slide">
                     <img src="img/screenshot-9.png" alt="">
                 </div>
-                <div class="pones_slider">
+                <div class="swiper-slide">
                     <img src="img/screenshot-10.png" alt="">
                 </div>
             </div>
+            <div class="swiper-pagination" style="transform: translateY(10px)"></div>
         </div>
-        <div class="preves"><</div>
-        <div class="nextes">></div>
+        
     </section>
     <!-- header second -->
     <section class="download">
@@ -580,9 +578,9 @@
         </div>
         <div>Copywrite &copy;  Leno - Mobile App Landing Page Template by Inovatik</div>
     </footer>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/all.js"></script>
+
 </body>
 
 </html>
